@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tonjes BT, swag</title>
+
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        .flex-container{
+            display: flex;
+        }
+        .titel-overskrift{
+            font-size: 42px;
+            font-weight: 600;
+        }
+        .flex-container-lille-ydre{
+            display: flex;
+            width: 20%;
+        }
+
+        .flex-container-stor-midt{
+            display: flex;
+            width: 60%;
+        }
+
+        .flex-container-space-around{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .flex-container-center-items{
+            display: flex;
+            justify-content: center;
+        }
+
+        .flex-container-top-venstre{
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .menu-mellemrum{
+            padding: 0 10px;
+        }
+
+        .reklame{
+            background: midnightblue;
+            color: white;
+            margin: 0 10px;
+            width: 100%;
+            font-size: 25px;
+            vertical-align: central;
+            align-items: center;
+        }
+
+        .wrapper-reklame{
+            height: 200px;
+        }
+
+        .breaking-news-lige-nu{
+            display:flex;
+            color: black;
+            text-transform: uppercase;
+            vertical-align: central;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .højde-kasse-breaking{
+            height: 60px;
+            margin: 2% 10% 0 10%;
+        }
+
+        .breaking-news-baggrund{
+            display: flex;
+            background: yellow;
+            width: 68.3%;
+            height: 820px;
+        }
+
+        .flex-container-column{
+            flex-direction: column;
+        }
+
+        #padding-breaking{
+            padding: 15px 15px 15px 15px;
+            background: yellow;
+        }
+
+        #store-bogstaver{
+            text-transform: uppercase;
+        }
+
+        #skrift-rød{
+            color: red;
+        }
+
+        #stor-skrift-font-200{
+            font-size: 200px;
+            margin: 0;
+        }
+
+        #stor-skrift-font-350{
+            font-size: 350px;
+            margin: 0;
+        }
+
+        #skrift-rød-font-100{
+            color: red;
+            font-size: 100px;
+            margin: 0;
+        }
+
+    </style>
+</head>
+
+<header>
+    <div class="flex-container">
+        <div class="flex-container-lille-ydre flex-container-center-items">
+            <div>
+                <img src="nav-pil.png" width="70" height="70">
+
+            </div>
+        </div>
+        <div class="flex-container-stor-midt flex-container-center-items">
+            <div class="titel-overskrift">
+                <h1 style="margin: 0; padding: 0"><span id="skrift-rød">B.T.</span></h1>
+
+            </div>
+        </div>
+        <div class="flex-container-lille-ydre flex-container-center-items">
+            <div>
+                <img src="burger-menu.png" width="70" height="70">
+            </div>
+        </div>
+    </div>
+    <div class="flex-container-center-items">
+            <div class="flex-container-space-around" >
+                <div class="flex-container-center-items menu-mellemrum">
+                    <h3><span id="store-bogstaver">Nyheder</h3>
+                </div>
+                <div class="flex-container-center-items menu-mellemrum">
+                    <h3><span id="store-bogstaver">Sport</h3>
+                </div>
+                <div class="flex-container-center-items menu-mellemrum">
+                    <h3><span id="store-bogstaver">Underholdning</h3>
+                </div>
+            </div>
+    </div>
+</header>
+
+<body>
+    <div class="flex-container wrapper-reklame">
+        <div class="reklame flex-container-center-items">
+            <h2> HVOR MEGET KAN DU SPARE I STRØM?</h2>
+        </div>
+    </div>
+
+    <div class="flex-container-center-items højde-kasse-breaking">
+        <div class="breaking-news-lige-nu">
+            <h2 id = "padding-breaking">Lige nu lige nu lige nu lige nu lige nu lige nu lige nu lige nu lige nu</h2>
+        </div>
+    </div>
+
+    <div class="flex-container-center-items">
+        <img src="TESTtilAVIS.jpeg" width="68.3%">
+    </div>
+
+    <div class="flex-container-center-items">
+        <div class="breaking-news-baggrund flex-container-column">
+            <div class="flex-container-top-venstre">
+                <p id = "skrift-rød"> LIVE / UKRAINE <br> <br> </p>
+            </div>
+
+            <div>
+                <h2 id="stor-skrift-font-350" style="padding-left: 50px"> Farlig <br></h2>
+            </div>
+
+            <div>
+                <h2 id="stor-skrift-font-200" style="padding-left: 50px"> melding: <br></h2>
+            </div>
+
+            <div class="flex-container-til-skrift">
+                <h2 id="skrift-rød-font-100" style="padding-left: 50px">Skal indføres nu</h2>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
